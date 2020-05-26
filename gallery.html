@@ -1,0 +1,30 @@
+---
+layout: page
+---
+
+<div class="gallery">
+    {% for item in site.data.images %}
+        <div class="image-div">
+            <img 
+                id="{{ image.name }}" 
+                src="{{ item.source }}" 
+                alt="{{ item.name }}" 
+                title="{{ item.name }}" 
+                class="image"
+                onclick="gettingBored(this)" />
+        </div>
+    {% endfor %}
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+    
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="idmodal">
+    
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+    </div>
+</div>
