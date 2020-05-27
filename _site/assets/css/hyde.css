@@ -61,7 +61,7 @@ html {
 }
 @media (min-width: 48em) {
   .sidebar {
-    background-image: url("/assets/images/sidebar4.jpg");
+    background-image: url("/assets/images/sidebar6.jpg");
     background-size: cover; /* Resize the background image to cover the entire container */
     background-position: 35%; /* Center the image */
     position: fixed;
