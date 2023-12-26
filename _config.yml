@@ -70,6 +70,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           Taco-DB is a Postgres-like database system. The framework included writing a low-level file and datapage interface, bypassing OS buffering for optimized performace. We then built the `table` interface on top of the the datapage/file interface. We also added additional features building like B+ Trees on top of tables, a query execution interface for the database and query optimization for select queries.  
 
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. #
         title: Distributed Key-Value Store using Paxos
         link:
         link_text: Unfortunately, it is a private repository.
@@ -78,6 +80,8 @@ content:
         description: |
           Worked on a distributed key-value store in Golang. Implemented the Single-Decree Paxos algorithm for consensus amongst peers. The distributed key-value store implements a state machine on a replicated log for resilient and fault-tolerant data store.
 
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. #
         title: MiniOS
         link:
         link_text: Unfortunately, it is a private repository.
@@ -85,6 +89,7 @@ content:
           A simple minimal operating system.
         description: |
           Built a simple operating system with a custom bootloader. Implemented page tables, interrupt descriptor table (IDT) with custom interrupts, global descriptor table (GDT), APIC timer, and setup system calls. Ported the MiniOS to Xen. Initialized and demonstrated the use of Hypercalls and grant tables in MiniOS. 
+
   - title: Experience
     layout: list
     content:
@@ -105,6 +110,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Description of role
 
+      - layout: left
         title: Goldman Sachs
         sub_title: Technology Analyst
         caption: July 2020 - July 2022
@@ -125,7 +131,6 @@ content:
     layout: list
     content:
       - layout: top-left
-
         title: The Pennsylvania State University
         sub_title: MS in Computer Science and Engineering
         caption: 2022 - 2024
@@ -134,6 +139,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Description of qualification
 
+      - layout: top-left
         title: College of Engieering, Pune
         sub_title: Bachelor's in Computer Engineering (Honors)
         caption: 2016 - 2020
