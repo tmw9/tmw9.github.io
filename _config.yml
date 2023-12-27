@@ -88,7 +88,7 @@ content:
 
       - layout: left
         title: Virtualizer
-        link: to be updated
+        link:
         link_text: Gitlab Repository
         quote: >
           Virtual contest generator for CodeChef
@@ -97,7 +97,7 @@ content:
 
       - layout: left
         title: STE
-        link: to be updated
+        link:
         link_text: Gitlab Repository
         quote: >
           A simple terminal based text editor
