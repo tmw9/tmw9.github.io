@@ -102,6 +102,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Description of role
         
+      - layout: left
         title: The Pennsylvania State University
         sub_title: Teaching Assistant
         caption: August 2022 - December 2023
@@ -119,6 +120,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Description of role
       
+      - layout: left
         title: Goldman Sachs
         sub_title: Summer Intern
         caption: May 2019 - July 2019
