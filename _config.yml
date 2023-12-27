@@ -60,8 +60,6 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
         title: Taco-DB
         link: 
         link_text: Unfortunately, it is a private repository.
@@ -71,7 +69,6 @@ content:
           Taco-DB is a Postgres-like database system. The framework included writing a low-level file and datapage interface, bypassing OS buffering for optimized performace. We then built the `table` interface on top of the the datapage/file interface. We also added additional features building like B+ Trees on top of tables, a query execution interface for the database and query optimization for select queries.  
 
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. #
         title: Distributed Key-Value Store using Paxos
         link:
         link_text: Unfortunately, it is a private repository.
@@ -81,7 +78,6 @@ content:
           Worked on a distributed key-value store in Golang. Implemented the Single-Decree Paxos algorithm for consensus amongst peers. The distributed key-value store implements a state machine on a replicated log for resilient and fault-tolerant data store.
 
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. #
         title: MiniOS
         link:
         link_text: Unfortunately, it is a private repository.
