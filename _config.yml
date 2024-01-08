@@ -21,7 +21,7 @@ darkmode: false
 # Social links
 # twitter_username: jekyllrb
 github_username:  tmw9
-stackoverflow_username: 7295337
+stackoverflow_username: jugal-rawlani
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
@@ -66,7 +66,7 @@ content:
         quote: >
           A lightweight Postgres-like database built in C++
         description: | # this will include new lines to allow paragraphs
-          Taco-DB is a Postgres-like database system. The framework included writing a low-level file and datapage interface, bypassing OS buffering for optimized performace. We then built the table interface on top of the the datapage/file interface. We also added additional features building like B+ Trees on top of tables, a query execution interface for the database and query optimization for select queries.  
+          Taco-DB is a Postgres-like database system. The framework included writing a low-level file and datapage interface, bypassing OS buffering for optimized performace. We then built the `table` interface on top of the the datapage/file interface. We also added additional features building like B+ Trees on top of tables, a query execution interface for the database and query optimization for select queries.  
 
       - layout: left
         title: Distributed Key-Value Store using Paxos
@@ -88,24 +88,59 @@ content:
 
   - title: Experience
     layout: list
-    content: 
-      
+    content:
+      - layout: left
+        title: The Pennsylvania State University
+        sub_title: Learning Assistant
+        caption: January 2024 - Present
+        quote: >
+          Teaching Assistant for CMPSC132 and CMPSC431W
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+        
       - layout: left
         title: The Pennsylvania State University
         sub_title: Teaching Assistant
-        caption: August 2022 - May 2024
+        caption: August 2022 - December 2023
         quote: >
-          Teaching Assistant/Learning Assistant for CMPSC132, CMPSC431W, and CMPSC443
+          Teaching Assistant for CMPSC132 and CMPSC431W
         description: | # this will include new lines to allow paragraphs
-          Served as teaching and learning assistant for courses CMPSC 132: Programming and Computation II: Data Structures, CMPSC 431W: Database Management Systems, and CMPSC 443: Introduction to Computer and Network Security. Responsible for holding office hours to help students with the course material and assignments. Created rubric to ensure fair grading. Held recitation and review sessions to help students build a better foundation of computer science field in general.  
+          Description of role
+
+      - layout: left
+        title: Goldman Sachs
+        sub_title: Technology Analyst
+        caption: July 2020 - July 2022
+        quote: >
+          Teaching Assistant for CMPSC132 and CMPSC431W
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+      
+      - layout: left
+        title: Goldman Sachs
+        sub_title: Summer Intern
+        caption: May 2019 - July 2019
+        quote: >
+          Teaching Assistant for CMPSC132 and CMPSC431W
+        description: | # this will include new lines to allow paragraphs
+          Description of role
       
   - title: Education
     layout: list
     content:
-      - layout: left
+      - layout: top-left
         title: The Pennsylvania State University
         sub_title: MS in Computer Science and Engineering
         caption: 2022 - 2024
+        quote: >
+          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of qualification
+
+      - layout: top-left
+        title: College of Engieering, Pune
+        sub_title: Bachelor's in Computer Engineering (Honors)
+        caption: 2016 - 2020
         quote: >
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
