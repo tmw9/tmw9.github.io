@@ -96,7 +96,8 @@ content:
         quote: >
           Teaching Assistant for CMPSC132 and CMPSC431W
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          - Test adding lines
+          - Test adding lines
         
       - layout: left
         title: The Pennsylvania State University
