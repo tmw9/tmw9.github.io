@@ -92,37 +92,27 @@ content:
       - layout: left
         title: The Pennsylvania State University
         sub_title: Learning Assistant
-        caption: January 2024 - Present
+        caption: August 2022 - Present
         quote: >
           Teaching Assistant for CMPSC132 and CMPSC431W
         description: | # this will include new lines to allow paragraphs
-          - Test adding lines
-          - Test adding lines
+          Description of role
         
       - layout: left
-        title: The Pennsylvania State University
-        sub_title: Teaching Assistant
-        caption: August 2022 - December 2023
+        title: Goldman Sachs
+        sub_title: Software Engineer
+        caption: July 2020 - July 2022
         quote: >
-          Teaching Assistant for CMPSC132 and CMPSC431W
+          - Worked in Client Reporting Team under Equity Swaps.
         description: | # this will include new lines to allow paragraphs
           Description of role
 
       - layout: left
         title: Goldman Sachs
-        sub_title: Technology Analyst
-        caption: July 2020 - July 2022
-        quote: >
-          Teaching Assistant for CMPSC132 and CMPSC431W
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-      
-      - layout: left
-        title: Goldman Sachs
-        sub_title: Summer Intern
+        sub_title: Software Engineering Intern
         caption: May 2019 - July 2019
         quote: >
-          Teaching Assistant for CMPSC132 and CMPSC431W
+          - Worked in Client Reporting Team under Equity Swaps.
         description: | # this will include new lines to allow paragraphs
           Description of role
       
